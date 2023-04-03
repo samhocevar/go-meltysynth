@@ -1,3 +1,13 @@
+# ⚠️ WARNING: this project is a fork
+
+This is a fork of the [original go-meltysynth](https://github.com/sinshu/go-meltysynth) which lacks support for seeking into MIDI files.
+
+## ✨ New features
+
+- [`6847c7aa`](https://github.com/samhocevar/go-meltysynt/commit/6847c7aa31422948927d174434f7c75c111c9b4a): new `MidiFileSequencer.Pos()` function to retrieve playback position
+- [`6847c7aa`](https://github.com/samhocevar/go-meltysynt/commit/6847c7aa31422948927d174434f7c75c111c9b4a): new `MidiFileSequencer.Seek()` function for real time seeking
+
+
 # Go-MeltySynth
 
 Go-MeltySynth is a SoundFont synthesizer written in Go, ported from [MeltySynth for C#](https://github.com/sinshu/meltysynth).
@@ -23,7 +33,7 @@ https://www.youtube.com/watch?v=HLta6pASIFg
 ## Installation
 
 ```
-go get github.com/sinshu/go-meltysynth
+go get github.com/samhocevar/go-meltysynth
 ```
 
 

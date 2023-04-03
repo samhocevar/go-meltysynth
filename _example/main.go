@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/sinshu/go-meltysynth/meltysynth"
+	"github.com/samhocevar/go-meltysynth/meltysynth"
 )
 
 func main() {
